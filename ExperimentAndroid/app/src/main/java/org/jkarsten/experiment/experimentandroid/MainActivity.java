@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AsyncTaskLoaderActivity.class);
         startActivity(intent);
     }
+
+    public void goToBroadcastActivity(View view) {
+        Intent intent = new Intent(this, LocalBroadcastActivity.class);
+        startActivity(intent);
+    }
 }

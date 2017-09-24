@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SensorActivity"></activity>
-        <activity android:name=".AsyncTaskLoaderActivity"></activity>
+        <activity android:name=".SensorActivity" />
+        <activity android:name=".AsyncTaskLoaderActivity" />
+        <activity android:name=".LocalBroadcastActivity"></activity>
     </application>
 
 </manifest>

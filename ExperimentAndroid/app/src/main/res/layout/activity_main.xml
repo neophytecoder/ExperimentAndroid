@@ -23,9 +23,15 @@
         android:onClick="goToSensorActivity"/>
 
     <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Try async task"
+    android:onClick="goToAsyncTaskLoaderActivity"/>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Try async task"
-        android:onClick="goToAsyncTaskLoaderActivity"/>
+        android:text="Try broadcast"
+        android:onClick="goToBroadcastActivity"/>
 
 </LinearLayout>
